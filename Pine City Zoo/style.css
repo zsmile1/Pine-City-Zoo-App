@@ -1,0 +1,207 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:Helvetica;
+}
+/*==============================HEADER===================================*/
+#header{
+     Position: fixed;
+     top: 0px;
+     left: 0px;
+     z-index: 500;
+     width: 100%;
+     height: 80px;
+     background-image: url('images/wood-bg.png');
+     background-repeat: repeat-x;
+}
+
+#header img{
+    display: block;
+    margin: auto; 
+    height: 70%;
+    padding-top: 15px;
+
+}
+   
+/*==============================TOP-TABS===================================*/
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 60px;
+    background-color: darkgreen;
+    
+}
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+/*==============================MAIN-HOME===================================*/
+#main-home{
+    margin-top: 100px;
+}
+
+/*==============================FOOTER-TABS===================================*/
+#tabs-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: forestgreen;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 12px;
+}
+
+/*==============================MAIN===================================*/
+
+#main{
+    margin-top: 100px;
+    background: url('images/map-blur.png');   
+    background-repeat: repeat-y; 
+}
+
+#content{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/*============================== INFO BOX =================================*/
+
+a.info-box{
+    text-decoration: none;
+    display: block;
+    width: 90%;
+    height: 90px;
+    background: rgba(2555, 2555, 2555, .8);
+    margin:  auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box img{
+    float: left;
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+}
+.info-box h3{
+    color: #572800;
+    margin-bottom: 0;
+    padding: 0;
+    width: 90%;
+}
+
+.info-box p{
+    color: #131313;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}   
+
+.info-box img.right{
+    float: right;
+    height: 40px;
+    margin-top: 25px;
+}
+
+/*============================== INFO BOX FULL =================================*/
+#info-box-full{
+    display: block;
+    width: 100%;
+    background: rgba(255, 255, 255, .8);
+    margin: auto;
+    margin-top: 20px;
+    padding: 50px
+}
+
+#info-box-full img{
+       width: 90%; 
+       height: 400px;    
+}
+
+#info-box-full h3{
+    text-align: center
+}
+  
+/*============================== WEATHER =================================*/
+
+img.info-box-weather-icon{
+    float: left;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 10px;
+}
+
+h1.info-box-weather-icon{
+    font-size:65px;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    width: 100%;
+    
+}
+
+td{
+    border-top: 1px solid #131313;
+}
+
+/*============================== FORM =================================*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+    padding-top: 10px;
+
+}
+
+.button{
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: forestgreen;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
+    padding: 0;
+    margin: 12px 0;
+    padding-top: 15px 0;
+    text-decoration: none;
+    margin: 12px 0;
+}
